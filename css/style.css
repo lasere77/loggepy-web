@@ -55,7 +55,6 @@ div#center iframe{
 
 
 div#rod-bottom{
-    padding-top: px;
     display: flex;
     justify-content: center;
     color: white;
@@ -106,4 +105,31 @@ effet de click
         transform: scale(0);
         opacity: 0;
     }
+}
+
+
+
+@media (max-width: 1000px) {
+    body {
+        background-size: 200%;
+    }
+    div#rod-bottom {
+        padding-top: 200%;
+    }
+
+    div#rod-bottom nav.nav-bottom ul li.btn-bottom {
+    
+    }
+    div#rod-bottom nav.nav-bottom ul li.btn-bottom  a{
+        
+    }
+    div#rod-bottom nav.nav-bottom ul li.btn-bottom{
+        display: inline-block;
+        font-size: 35px;
+    }
+    div#rod-bottom {
+        display: inline-block;
+        font-size: 25px;
+    }
+
 }
