@@ -27,6 +27,9 @@ div#center div#left{
     display: flex;
     justify-content: end;
 }
+div#center div#left h4{
+    display: none;
+}
 
 
 div#center p{
@@ -114,7 +117,7 @@ effet de click
         background-size: 200%;
     }
     div#rod-bottom {
-        padding-top: 200%;
+        padding-top: 100%;
     }
 
     div#rod-bottom nav.nav-bottom ul li.btn-bottom {
@@ -129,7 +132,16 @@ effet de click
     }
     div#rod-bottom {
         display: inline-block;
-        font-size: 25px;
+        font-size: 26px;
+    }
+    div#center iframe{
+        padding-left: 400px;
+    }
+    div#center div#left h3{
+        display: none;
+    }
+    div#center div#left h4{
+        display: block;
     }
 
 }
