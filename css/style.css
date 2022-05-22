@@ -111,20 +111,15 @@ effet de click
 }
 
 
-
+/*
+responsive for 1000px(Phone)
+*/
 @media (max-width: 1000px) {
     body {
         background-size: 200%;
     }
     div#rod-bottom {
         padding-top: 100%;
-    }
-
-    div#rod-bottom nav.nav-bottom ul li.btn-bottom {
-    
-    }
-    div#rod-bottom nav.nav-bottom ul li.btn-bottom  a{
-        
     }
     div#rod-bottom nav.nav-bottom ul li.btn-bottom{
         display: inline-block;
@@ -143,5 +138,19 @@ effet de click
     div#center div#left h4{
         display: block;
     }
+
+}
+
+/*
+responsive for 1400px(laptop)
+*/
+@media (max-width: 1400px) {
+    div#center iframe{
+        padding-left: 750px;
+    }
+    div#center {
+        padding-top: 50px;
+    }
+
 
 }
