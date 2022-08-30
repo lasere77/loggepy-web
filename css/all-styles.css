@@ -6,57 +6,6 @@ body{
 }
 
 
-div#rod-top{
-    color: white;
-}
-div#rod-top h1{
-    display: flex;
-    justify-content: center;
-}
-div#rod-top p{
-    display: flex;
-    justify-content: center;
-}
-
-
-div#center{
-    padding-top: 190px; 
-    size: 50px;
-}
-div#center div#left{
-    display: flex;
-    justify-content: start;
-}
-div#center div#left h4{
-    display: none;
-}
-
-
-div#center p{
-    font-size: 17px;
-    padding-left: 100px;
-}
-div#center nav.nav-menu ul li.download{
-    list-style-type: none;
-}
-div#center nav.nav-menu ul li.download a{
-    text-decoration: none;
-    background-color: #353535;
-    color: white;
-    size: 20px;
-    padding: 10px;
-}
-div#center nav.nav-menu ul li.download :hover{
-    background-color: white;
-    color: #353535;
-    padding: 15px;
-    transition: 0.8s all;
-}
-div#center iframe{
-    padding-left: 1250px;
-}
-
-
 div#rod-bottom{
     display: flex;
     justify-content: center;
